@@ -1,4 +1,4 @@
-import './App.css'
+import React from 'react'
 
 const Navbar = () => {
   return <h1> Navbar</h1>
