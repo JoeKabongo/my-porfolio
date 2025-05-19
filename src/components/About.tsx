@@ -1,16 +1,44 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
 const About = () => {
   return (
-    <section id="about">
-      <h1 className="text-5xl font-bold text-gray-800 mb-4">About</h1>
+    <section className="flex flex-col items-center lg:w-80 p-4 md:p-8 rounded-xl border-1 border-white/30">
+      <img
+        src="/images/image_2.jpg"
+        alt="Profile"
+        className="rounded-lg w-[200px]"
+      />
+      <h1 className="mt-4">I am Jonathan &#128522;</h1>
       <p>
-        I am a mid-level software engineer with 3 years of full-time experience,
-        currently working at Google. I consider myself a versatile full-stack
-        engineer, with hands-on experience across frontend, backend, and Android
-        development. I am excited to contribute my skills and grow with a team
-        that values clean code, collaboration, and impactful work.
+        I am software engineer who is very passionate about learning and growing
+        his skills.
       </p>
+
+      <div className="flex gap-4 justify-center mt-5">
+        <a
+          href="https://www.linkedin.com/in/jonathan-tshimpaka/"
+          target="_blank"
+          className="hover:bg-blue-400 p-px"
+        >
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        </a>
+        <a
+          href="https://github.com/JoeKabongo"
+          target="_blank"
+          className="hover:bg-blue-400 p-px"
+        >
+          <FontAwesomeIcon icon={faGithub} size="2x" />
+        </a>
+        <a
+          href="mailto:jonathankabongo23@gmail.com"
+          className="hover:bg-blue-400 p-px"
+        >
+          <FontAwesomeIcon icon={faEnvelope} size="2x" />
+        </a>
+      </div>
     </section>
   )
 }
