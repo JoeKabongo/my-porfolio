@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/About'
+import Experience from './components/Experience'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
 
@@ -10,6 +11,7 @@ const App = () => {
         <About />
       </div>
       <div className="flex-1">
+        <Experience />
         <Projects />
         <Footer />
       </div>
