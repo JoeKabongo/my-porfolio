@@ -13,8 +13,8 @@ const About = () => {
       />
       <h1 className="mt-4">I am Jonathan &#128522;</h1>
       <p>
-        I am software engineer who is very passionate about learning and growing
-        his skills.
+        I’m a software engineer with a passion for continuous learning, personal
+        growth, and building high-quality products that make an impact.
       </p>
 
       <div className="flex gap-4 justify-center mt-5">
