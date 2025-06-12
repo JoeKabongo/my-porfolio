@@ -1,16 +1,15 @@
 import React from 'react'
 import experiences from '../data/experience'
 import ExperienceCard from './ExperienceCard'
+import { useTranslation } from 'react-i18next'
 
 const Experience = () => {
+  const { t } = useTranslation()
+
   return (
     <section>
-      <h1 className="">EXPERIENCE</h1>
-      <p className="mb-4">
-        I have 3 years of full-time experience as a software engineer, plus 9
-        months as an intern during university. Here’s a breakdown of my journey
-        so far 😊
-      </p>
+      <h1 className="">{t('experienceSectionTitle')}</h1>
+      <p className="mb-4">{t('projectionSectionIntro')} 😊</p>
       {experiences.map((experience) => (
         <ExperienceCard experience={experience} />
       ))}
