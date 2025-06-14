@@ -14,7 +14,7 @@ const ExperienceCard = ({ experience }: Props) => {
         <img
           className="sm:w-20 sm:h-20  w-10 h-10 rounded-lg"
           src={experience.companyImageLink}
-          alt={t('company logo')}
+          alt={t('imageLogo')}
         />
         <div>
           <h2 className="mb-1">{t(experience.titleKey)}</h2>

@@ -14,7 +14,7 @@ export const ProjectCard = ({ project }: Props) => {
         <img
           className="sm:w-20 sm:h-20 w-10 h-10 rounded-lg"
           src={project.previewImageLink}
-          alt={t('company logo')}
+          alt={t('imageLogo')}
         />
         <div>
           <h2>{project.title}</h2>

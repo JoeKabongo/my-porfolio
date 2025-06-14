@@ -10,7 +10,7 @@ const About = () => {
     <section className="flex flex-col items-center lg:w-80 p-4 md:p-8 rounded-xl border-1 border-white/30">
       <img
         src="/images/image_2.jpg"
-        alt="Profile"
+        alt={t('introImageAlt')}
         className="rounded-lg w-[200px]"
       />
       <h1 className="mt-3 mb-2"> {t('introSectionTitle')} &#128522;</h1>
