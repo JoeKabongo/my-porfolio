@@ -1,4 +1,3 @@
-import React from 'react'
 import type { Experience } from '../data/experience'
 import { useTranslation } from 'react-i18next'
 
@@ -13,8 +12,9 @@ const ExperienceCard = ({ experience }: Props) => {
     <div className="mb-10">
       <div className="flex gap-4">
         <img
-          className="w-20 h-20 rounded-lg"
+          className="sm:w-20 sm:h-20  w-10 h-10 rounded-lg"
           src={experience.companyImageLink}
+          alt={t('company logo')}
         />
         <div>
           <h2 className="mb-1">{t(experience.titleKey)}</h2>
