@@ -9,6 +9,7 @@ const Projects = () => {
   return (
     <section>
       <h1 className="">{t('experienceSectionTitle')}</h1>
+      <p className="mb-4"> {t('project.introDescription')} </p>
       <div className="">
         {projects.map((project) => (
           <ProjectCard project={project} />

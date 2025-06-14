@@ -4,5 +4,47 @@
   "footerMessage": "2025 Jonathan Tshimpaka. All rights reserved.",
   "experienceSectionTitle": "EXPERIENCE",
   "projectSectionTitle": "PROJECTS",
-  "projectionSectionIntro": " I have 3 years of full-time experience as a software engineer, plus 9 months as an intern during university. Here’s a breakdown of my journey so far"
+  "projectionSectionIntro": " I have 3 years of full-time experience as a software engineer, plus 9 months as an intern during university. Here’s a breakdown of my journey so far",
+  "experience": {
+    "google": {
+      "title": "Software Engineer",
+      "duration": "Jul 2022 - Present",
+      "description": "I work on the Play Monetization team, where I’ve contributed to several cross-functional features involving Android development in Kotlin, frontend web development, and backend API and service design. My role spans the full stack, and I regularly collaborate with other teams to improve monetization flows and user experience."
+    },
+    "googleIntern": {
+      "title": "Software Engineer Intern",
+      "duration": "Jun 2021 - Aug 2021",
+      "description": "As part of the Google Surveys team, I built a complete frontend interface for survey creation, along with backend APIs for rendering and processing surveys. This project gave me hands-on experience owning a feature end-to-end and collaborating with engineers across the stack."
+    },
+    "intuit": {
+      "title": "Software Engineer Intern",
+      "duration": "May 2020 - Aug 2020",
+      "description": "I worked on the Data team, where I built data pipelines and ETL processes to analyze user transactions and identify subscription patterns. Additionally, I developed dashboards using SQL and Tableau to surface insights into failed transactions and payment issues."
+    },
+    "quibbl": {
+      "title": "Backend Engineer Intern",
+      "duration": "Feb 2019 - May 2019",
+      "description": "Built RESTful backend APIs to support dynamic news content rendering. Also developed a data pipeline to process spreadsheet inputs and import them into a MongoDB database for structured storage and retrieval."
+    }
+  },
+  "project": {
+    "introDescription": "Kanji Journey is my most recent project. The others were built earlier in my career, but I’ve included them here to showcase the range of technologies and ideas I’ve explored.",
+    "viewProjectText": "View Github",
+    "kanjiJourney": {
+      "tagline": "A visual study tool to help learners master Japanese kanji by JLPT level.",
+      "description": "Kanji Journey offers interactive features like kanji lookup, progress tracking, note-taking, and self-quizzing. Designed to support efficient and personalized kanji learning through a clean, user-friendly interface."
+    },
+    "taskTracker": {
+      "tagline": "A productivity app for organizing tasks by category, with full CRUD functionality.",
+      "description": "Designed to help users manage their workflow more effectively by categorizing and tracking tasks. Features include task creation, editing, deletion, and real-time updates for a smooth productivity experience."
+    },
+    "flack": {
+      "tagline": "A Slack-style messaging app built with Python Flask and vanilla JavaScript",
+      "description": "Enables real-time messaging with the ability to create and join chat rooms. Built from scratch to explore websocket-based communication and full-stack app architecture."
+    },
+    "nba": {
+      "tagline": "A social media platform built with Angular and Django.",
+      "description": "Allows users to create posts, comment, and engage with content through likes and dislikes. Built to explore user-generated content systems and modern frontend-backend integration."
+    }
+  }
 }

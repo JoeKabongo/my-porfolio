@@ -1,20 +1,26 @@
 import React from 'react'
 import type { Experience } from '../data/experience'
+import { useTranslation } from 'react-i18next'
 
 type Props = {
   experience: Experience
 }
 
 const ExperienceCard = ({ experience }: Props) => {
+  const { t } = useTranslation()
+
   return (
     <div className="mb-10">
       <div className="flex gap-4">
-        <img className="w-20 h-20 rounded-lg" src={experience.companyLink} />
+        <img
+          className="w-20 h-20 rounded-lg"
+          src={experience.companyImageLink}
+        />
         <div>
-          <h2 className="mb-1">{experience.title}</h2>
+          <h2 className="mb-1">{t(experience.titleKey)}</h2>
           <p>{experience.company} </p>
-          <p className="text-gray-300 text-sm"> {experience.duration} </p>
-          <p className="mt-2"> {experience.description}</p>
+          <p className="text-gray-300 text-sm"> {t(experience.durationKey)} </p>
+          <p className="mt-2"> {t(experience.descriptionKey)}</p>
         </div>
       </div>
     </div>

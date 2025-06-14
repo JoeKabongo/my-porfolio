@@ -8,7 +8,7 @@ const Experience = () => {
 
   return (
     <section>
-      <h1 className="">{t('experienceSectionTitle')}</h1>
+      <h1>{t('experienceSectionTitle')}</h1>
       <p className="mb-4">{t('projectionSectionIntro')} 😊</p>
       {experiences.map((experience) => (
         <ExperienceCard experience={experience} />
