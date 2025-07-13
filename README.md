@@ -13,13 +13,14 @@ It showcases my background, skills, and selected projects as a software engineer
 
 ## 📦 Tech Stack
 
-- React
+- React.js
+- TypeScript
 - Vite
-- CSS (no frameworks)
+- Tailwind
 
 ## 🌐 Live Site
 
-Coming soon...
+https://www.jonathantshimpaka.com/
 
 ---
 
